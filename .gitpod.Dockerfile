@@ -6,7 +6,6 @@ USER airflow
 # BUILD: docker build --rm -t airflow-docker .
 
 FROM python:3.7-slim-buster
-LABEL maintainer="Gitpod_"
 
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
